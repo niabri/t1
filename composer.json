@@ -1,0 +1,28 @@
+{
+    "name": "niabri/projeto_nbi",
+    "description": "Sistema de estudo",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "niabri",
+            "email": "niabri@gmail.com",
+            "role": "Developer",
+            "homepage": "http://www.nucleodeselecao.ueg.br/"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
